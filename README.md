@@ -20,6 +20,6 @@ The origin README is here: [README](./ORIGIN_README.md)
 
 # Tips
   If the dependency libs of the project are very large, it would slow down the search speed of vim.
-  You can move the dependency libs out of the project and make a soft link with the root directory 
-  of the lib to keep compiling successful, thus the vim would be faster since it does not search the
+  You can move the dependency libs out of the project and make a soft link to the root directory 
+  of the lib to make compiling successful, and the vim would be faster since it does not search the
   libs anymore.
